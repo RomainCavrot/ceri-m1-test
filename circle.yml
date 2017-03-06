@@ -1,0 +1,18 @@
+
+machine:
+  java:
+    version:
+    	openjdk8
+
+general:
+  branches:
+    only:
+      - master
+
+test:
+  override:
+    - mvm test
+
+
+
+
