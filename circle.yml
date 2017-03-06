@@ -1,15 +1,15 @@
 machine:
-  java:
-  	version:
-    	openjdk8
+	java:
+		version:
+			openjdk8
 
 general:
-  branches:
-    only:
+	branches:
+		only:
       - master
 
 test:
-  override:
+	override:
     - mvm test
 
 
